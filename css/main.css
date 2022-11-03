@@ -1,10 +1,10 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: #eae7dc;
+    font-family: 'Courier Prime';
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -21,8 +21,14 @@ h1 {
     line-height: 2.5em;
 }
 
+/* Adds google font to H1 for main pages */
+h1.page-header {
+    font-family: 'Courier Prime';
+}
+
+
 main.wrapper {
-    background-color: white;
+    background-color: #d8c3a5;
     overflow: auto;
 }
 
@@ -37,13 +43,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#8E8D8A;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #8E8D8A;
     text-decoration: none;
 }
 
