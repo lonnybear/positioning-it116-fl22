@@ -1,6 +1,7 @@
 /* Global rules */
 
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Spectral');
 
 html {
     background-color: #eae7dc;
@@ -14,6 +15,10 @@ html {
     background: #ff0;
 }
 
+body{
+   margin:0; /* removes space above body, top of page */
+}
+
 h1 {
     font-weight: normal;
     margin: auto;
@@ -23,7 +28,7 @@ h1 {
 
 /* Adds google font to H1 for main pages */
 h1.page-header {
-    font-family: 'Courier Prime';
+    font-family: 'Spectral';
 }
 
 
